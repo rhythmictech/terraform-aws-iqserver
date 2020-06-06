@@ -1,4 +1,4 @@
-# terraform-aws-nexus [![](https://github.com/rhythmictech/terraform-aws-nexus/workflows/pre-commit-check/badge.svg)](https://github.com/rhythmictech/terraform-aws-nexus/actions) <a href="https://twitter.com/intent/follow?screen_name=RhythmicTech"><img src="https://img.shields.io/twitter/follow/RhythmicTech?style=social&logo=RhythmicTech" alt="follow on Twitter"></a>
+# terraform-aws-iqserver [![](https://github.com/rhythmictech/terraform-aws-iqserver/workflows/pre-commit-check/badge.svg)](https://github.com/rhythmictech/terraform-aws-iqserver/actions) <a href="https://twitter.com/intent/follow?screen_name=RhythmicTech"><img src="https://img.shields.io/twitter/follow/RhythmicTech?style=social&logo=RhythmicTech" alt="follow on Twitter"></a>
 
 Create a Sonatype IQ Server instance. This does some neat things:
 
