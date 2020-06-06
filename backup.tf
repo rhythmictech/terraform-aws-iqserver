@@ -54,5 +54,4 @@ resource "aws_backup_selection" "this" {
   iam_role_arn = aws_iam_role.backup[0].arn
   plan_id      = aws_backup_plan.this[0].id
   resources    = [aws_efs_file_system.this.arn]
-
 }
