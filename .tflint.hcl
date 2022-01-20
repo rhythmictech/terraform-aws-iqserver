@@ -40,5 +40,5 @@ rule "terraform_required_version" {
 }
 
 rule "terraform_required_providers" {
-  enabled = true
+  enabled = false
 }

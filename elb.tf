@@ -38,6 +38,7 @@ resource "aws_security_group_rule" "elb_ingress" {
 
 resource "aws_lb" "this" {
   name_prefix                      = "${substr(var.name, 0, 5)}-"
+  drop_invalid_header_fields       = true
   enable_cross_zone_load_balancing = "true"
   internal                         = var.elb_internal
   load_balancer_type               = "application"
