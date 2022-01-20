@@ -16,6 +16,7 @@ variable "tags" {
 ########################################
 # IQ Server Vars
 ########################################
+#tfsec:ignore:general-secrets-sensitive-in-variable
 variable "license_secret" {
   default     = ""
   description = "S3 key including any prefix that has the Sonatype IQ Server license"
