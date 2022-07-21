@@ -86,7 +86,7 @@ variable "asg_subnets" {
 variable "root_volume_encryption" {
   default     = true
   description = "Encrypted root volume"
-  type        = boolean
+  type        = bool
 }
 
 variable "root_volume_size" {
