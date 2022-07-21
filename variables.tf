@@ -80,6 +80,28 @@ variable "asg_subnets" {
 }
 
 ########################################
+# RootVolume Vars
+########################################
+
+variable "root_volume_encryption" {
+  default     = true
+  description = "Encrypted root volume"
+  type        = bool
+}
+
+variable "root_volume_size" {
+  default     = null
+  description = "Size of the root volume"
+  type        = number
+}
+
+variable "root_volume_type" {
+  default     = "gp2"
+  description = "Size of the root volume"
+  type        = string
+}
+
+########################################
 # Networking Vars
 ########################################
 
