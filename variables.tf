@@ -79,6 +79,24 @@ variable "asg_subnets" {
   type        = list(string)
 }
 
+variable "root_volume_size" {
+  default = 20
+  type = number
+  description = "Size of the root volume"
+}
+
+variable "root_volume_encryption" {
+  default = true
+  type = boolean
+  description = "Encrypted root volume"
+}
+
+variable "root_volume_type" {
+  default = "gp2"
+  type = string
+  description = "Size of the root volume"
+}
+
 ########################################
 # Networking Vars
 ########################################
