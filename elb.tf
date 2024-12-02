@@ -45,6 +45,12 @@ resource "aws_lb" "this" {
   security_groups                  = [aws_security_group.elb.id]
   subnets                          = var.elb_subnets
   tags                             = var.tags
+
+  access_logs {
+    bucket  = var.access_logs_bucket
+    enabled = var.access_logs_enabled
+    prefix  = var.access_logs_prefix
+  }
 }
 
 resource "aws_lb_listener" "this" {
